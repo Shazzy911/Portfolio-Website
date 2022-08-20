@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Orange-color: hsl(13, 100%, 96%);
+  --Primary-BrightRed: hsl(12, 88%, 59%);
+  --Primary-DarkBlue: hsl(228, 39%, 23%);
+  --Neutral-GrayishBlue: hsl(227, 12%, 61%);
+  --Neutral-VeryDarkBlue: hsl(233, 12%, 13%);
+  --Neutral-VeryPaleRed: hsl(13, 100%, 96%);
+  --Neutral-VaryLightGray: hsl(0, 0%, 98%);
+  --attribute-aColor: hsl(228, 45%, 44%);
+  --font-size: 11px;
+  --text-align: center;
+  --line-height: 1.4;
+}
+body {
+  background-color: var(--Neutral-VaryLightGray);
+}
+.heading-text {
+  letter-spacing: 0.56px;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 1.1;
+  color: var(--Neutral-VeryDarkBlue);
+}
+.heading-text2{
+  color: var(--Neutral-VeryDarkBlue);
+}
+.btn {
+  padding: 1.1em 2.4em;
+  border: 1px solid var(--Primary-BrightRed);
+  border-radius: 22px;
+  background-color: var(--Primary-BrightRed);
+  color: white;
+  font-weight: bold;
+  box-shadow: 1px 1px 20px var(--Primary-BrightRed);
+}
+/* .btn:hover {
+  cursor: pointer;
+  /* box-shadow: 1px 1px 40px var(--Orange-color); */
+  /* background-color: var(--Orange-color);
+  /* border: 1px solid var(--Orange-color); */
+  /* box-shadow:1px 1px 6px var(--Orange-color) ; */
+  /* border: .5px solid var(--Orange-color); */
+
+/* } */ 
+.btn2 {
+  height: 2.8rem;
+  width: 3.7rem;
+  border-radius: 21px;
+  background-color: var(--Primary-BrightRed);
+  border: 1px solid var(--Primary-BrightRed);
+  color: white;
+  font-weight: bold;
+  box-shadow: 1px 1px 2px var(--Primary-BrightRed);
+}
+.btn2:hover {
+  box-shadow: 1px 1px 20px var(--Primary-BrightRed);
+  cursor: pointer;
+}
+.paragraph {
+  font-weight: 500;
+  letter-spacing: 0.011em;
+  line-height: var(--line-height);
+  margin: 23px 0px;
+  color: var(--Neutral-GrayishBlue);
+}
+
+
+.teamWork {
+  height: 12rem;
+  background-color: var(--Primary-BrightRed);
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.TeamWork-Heading h1 {
+  font-size: 30px;
+  color: white;
+}
+.btn-teamWork{
+  background-color: white;
+  color: var(--Primary-BrightRed);
+  font-weight: 500;
+}
+/* .btn-teamWork:hover{
+  color: var(--Orange-color);
+  background-color: white;
+} */
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
+
+/* The designs were created to the following widths
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Bright Red: hsl(12, 88%, 59%)
+Dark Blue: hsl(228, 39%, 23%)
+
+### Neutral
+
+Dark Grayish Blue: hsl(227, 12%, 61%)
+Very Dark Blue: hsl(233, 12%, 13%)
+Very Pale Red: hsl(13, 100%, 96%)
+Vary Light Gray: hsl(0, 0%, 98%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 16px
+
+### Font
+
+- Family: [Be Vietnam](https://fonts.google.com/specimen/Be+Vietnam)
+- Weights: 400, 500, 700
+
+## Icons
+
+For the social icons, you can use the icons provided or a font icon library. Some suggestions for font icon libraries can be found below:
+
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com) */

@@ -1,0 +1,57 @@
+/* Footer Css */
+footer {
+  height: 16rem;
+  background-color: var(--Neutral-VeryDarkBlue);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 4em 0px;
+}
+/* Div Number 1 in Html */
+.logo-social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-app {
+  display: flex;
+  justify-content: space-between;
+}
+.social-app a {
+  padding: 0px 0.5em;
+}
+
+/* Div Number 2  & 3 in Html */
+.foot-nav ul li {
+  list-style: none;
+  padding: 0.3em 0px;
+}
+.foot-nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.foot-nav ul li a:hover {
+  color: var(--Primary-BrightRed);
+  transition: 0.8s;
+}
+/* Div Number 4 in Html Search & CopyRights */
+
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.input-Button input {
+  width: 13rem;
+  height: 2.6rem;
+  padding: 0px 12px;
+  border-radius: 16px;
+  border: 1px solid white;
+}
+
+
+.copyRight p {
+  font-size: 14px;
+  text-align: end;
+  color: white;
+}

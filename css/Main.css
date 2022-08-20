@@ -1,0 +1,66 @@
+/* Css for Intro  Heading-Paragraph-button and for Image */
+.Introduction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px 0px;
+  padding: 0px 90px 0px 165px;
+}
+#OnlyMainHeading {
+  letter-spacing: 0.56px;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.Intro-Image img {
+  height: 500px;
+}
+
+
+
+/* Css for Difference Section and difference Card */
+
+.Differences{
+  display: flex;
+  justify-content: space-between;
+  margin: 90px 0px 50px 0px;
+  padding: 0px 165px;
+  flex-wrap: wrap;
+}
+.differParent{
+  display: flex;
+  margin-bottom: 25px;
+}
+.differChild{
+  margin-left: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width:900px) {
+    .Introduction{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .Intro-Image img{
+        width: 500px;
+    }
+    .Intro-Info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Intro-Info p, h1{
+        text-align: center;
+    }
+}
