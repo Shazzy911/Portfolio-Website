@@ -2,26 +2,33 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+  
 }
 :root {
   --Orange-color: hsl(13, 100%, 96%);
-  --Primary-BrightRed: hsl(12, 88%, 59%);
+  --Primary-BrightRed: hsl(12, 88%, 59%); 
+  /* hsl(12, 88%, 59%) */
   --Primary-DarkBlue: hsl(228, 39%, 23%);
   --Neutral-GrayishBlue: hsl(227, 12%, 61%);
   --Neutral-VeryDarkBlue: hsl(233, 12%, 13%);
   --Neutral-VeryPaleRed: hsl(13, 100%, 96%);
   --Neutral-VaryLightGray: hsl(0, 0%, 98%);
   --attribute-aColor: hsl(228, 45%, 44%);
-  --font-size: 11px;
   --text-align: center;
   --line-height: 1.4;
+  
 }
+html{
+  font-size: 62.5%;
+}
+
 body {
   background-color: var(--Neutral-VaryLightGray);
 }
 .heading-text {
-  letter-spacing: 0.56px;
-  font-size: 35px;
+  letter-spacing: .056rem;
+  font-size: 3.5rem;
   font-weight: 600;
   line-height: 1.1;
   color: var(--Neutral-VeryDarkBlue);
@@ -30,13 +37,16 @@ body {
   color: var(--Neutral-VeryDarkBlue);
 }
 .btn {
-  padding: 1.1em 2.4em;
-  border: 1px solid var(--Primary-BrightRed);
-  border-radius: 22px;
+  padding: .1rem 1.5rem;
+  border: .2rem solid black;
+  border-radius: .7rem;
   background-color: var(--Primary-BrightRed);
   color: white;
   font-weight: bold;
-  box-shadow: 1px 1px 20px var(--Primary-BrightRed);
+  box-shadow: .1rem .1rem 20rem var(--Primary-BrightRed);
+}
+#red{
+  color: red;
 }
 /* .btn:hover {
   cursor: pointer;
@@ -50,35 +60,36 @@ body {
 .btn2 {
   height: 2.8rem;
   width: 3.7rem;
-  border-radius: 21px;
+  border-radius: 2.1rem;
   background-color: var(--Primary-BrightRed);
-  border: 1px solid var(--Primary-BrightRed);
+  border: .1rem solid var(--Primary-BrightRed);
   color: white;
   font-weight: bold;
-  box-shadow: 1px 1px 2px var(--Primary-BrightRed);
+  box-shadow: .1rem .1rem .2rem var(--Primary-BrightRed);
 }
 .btn2:hover {
-  box-shadow: 1px 1px 20px var(--Primary-BrightRed);
+  box-shadow: .1rem .1rem 2rem var(--Primary-BrightRed);
   cursor: pointer;
 }
 .paragraph {
   font-weight: 500;
   letter-spacing: 0.011em;
   line-height: var(--line-height);
-  margin: 23px 0px;
+  margin: 2.3rem 0px;
   color: var(--Neutral-GrayishBlue);
+  font-size: 1.6rem;
 }
 
 
 .teamWork {
-  height: 12rem;
+  height: 16.4rem;
   background-color: var(--Primary-BrightRed);
   align-items: center;
   display: flex;
   justify-content: space-around;
 }
 .TeamWork-Heading h1 {
-  font-size: 30px;
+  font-size: 3rem;
   color: white;
 }
 .btn-teamWork{
