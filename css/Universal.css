@@ -17,6 +17,7 @@
   --attribute-aColor: hsl(228, 45%, 44%);
   --text-align: center;
   --line-height: 1.4;
+  --font-weight: 1.6rem;
   
 }
 html{
@@ -37,16 +38,21 @@ body {
   color: var(--Neutral-VeryDarkBlue);
 }
 .btn {
-  padding: .1rem 1.5rem;
-  border: .2rem solid black;
+  padding: 1.4rem 1.5rem;
+  border: .2rem solid var(--Primary-BrightRed);
   border-radius: .7rem;
   background-color: var(--Primary-BrightRed);
   color: white;
   font-weight: bold;
   box-shadow: .1rem .1rem 20rem var(--Primary-BrightRed);
+  /* font-size: var(--font-weigth); */
 }
 #red{
   color: red;
+}
+.btn:hover {
+  box-shadow: .1rem .1rem 2rem var(--Primary-BrightRed);
+  cursor: pointer;
 }
 /* .btn:hover {
   cursor: pointer;
@@ -58,9 +64,9 @@ body {
 
 /* } */ 
 .btn2 {
-  height: 2.8rem;
-  width: 3.7rem;
-  border-radius: 2.1rem;
+  height: 4.4rem;
+  width: 5rem;
+  border-radius: 1.9rem;
   background-color: var(--Primary-BrightRed);
   border: .1rem solid var(--Primary-BrightRed);
   color: white;
@@ -77,16 +83,17 @@ body {
   line-height: var(--line-height);
   margin: 2.3rem 0px;
   color: var(--Neutral-GrayishBlue);
-  font-size: 1.6rem;
+  font-size: var(--font-weigth);
 }
 
 
 .teamWork {
-  height: 16.4rem;
+  height: 18.4rem;
   background-color: var(--Primary-BrightRed);
   align-items: center;
   display: flex;
   justify-content: space-around;
+  font-size: var(--font-weight);
 }
 .TeamWork-Heading h1 {
   font-size: 3rem;

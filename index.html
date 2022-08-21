@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Link of Javascript -->
-
+    <script src="/js/Todo-list.js" defer></script>
     <!-- Link of Css -->
     <link rel="stylesheet" href="/css/Universal.css" />
     <link rel="stylesheet" href="/css/Header.css" />
     <link rel="stylesheet" href="/css/Main.css" />
     <link rel="stylesheet" href="/css/Card.css" />
     <link rel="stylesheet" href="/css/Footer.css" />
+    <link rel="stylesheet" href="/css/Todo-list.css">
     <!-- <link rel="stylesheet" href="/css/style.css"> -->
     <title>Shahzaib Saleem | Portfolio</title>
   </head>
@@ -78,7 +79,7 @@
         <div class="about-info">
           <h1>Shahzaib Saleem</h1>
           <h3>A Lead <span id="red">Front-end</span> Web Developer</h3>
-          <p>
+          <p class="paragraph">
             I develope Services for customers, specilizing <br />
             in modern Javascript for making modern websites for online stores.
             <br />
@@ -150,7 +151,7 @@
                 sed cumque, veritatis nihil!
               </p>
             </div>
-            <div class="box">
+            <div class="box special-box">
               <img src="" alt="" srcset="" />
               <h2>Lorem ipsum dolor sit.</h2>
               <p>
@@ -182,7 +183,7 @@
                 sed cumque, veritatis nihil!
               </p>
             </div>
-            <div class="box">
+            <div class="box special-box">
               <img src="" alt="" srcset="" />
               <h2>Lorem ipsum dolor sit.</h2>
               <p>
@@ -338,7 +339,56 @@
           </div>
         </div>
       </section>
-
+      <!-- Todo List Section -->
+      <section class="section-todo container-todo">
+        <h2>Give Some Comments</h2>
+        <!-- todo form  -->
+        <form class="form-todo">
+          <input type="text" name="" id="" placeholder="Comments" />
+          <input type="submit" value="Add" class="btn" />
+        </form>
+  
+        <ul class="todo-list">
+          <li>
+            <span class="text">You're Such a Great Person</span>
+            <div class="todo-buttons">
+              <button class="todo-btn done">Done</button>
+              <button class="todo-btn remove">Remove</button>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- Sign Up Section -->
+      <section class="section-signup container">
+        <h2>Sign Up</h2>
+        <form class="signup-form">
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <div class="form-group">
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" name="confirmPassword" id="confirmPassword" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="text" name="phone" id="phone" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="about">About Yourself</label>
+            <textarea name="about" id="about" cols="30" rows="10"></textarea>
+          </div>
+          <button type="submit" class="btn signup-btn">Submit</button>
+        </form>
+      </section>
       <!-- This is Sectionl Differences -->
       <section class="Skills-info">
         <div class="Skills-info-heading">

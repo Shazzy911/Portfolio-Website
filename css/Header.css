@@ -21,6 +21,10 @@ header {
   align-items: center;
   padding: .5rem 0px 0px 0px;
 }
+.header-logo img{
+  height: 2.4rem;
+  width: 14.6rem;
+}
 header nav ul {
   display: flex;
   align-items: center;
@@ -50,7 +54,7 @@ header nav ul li a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 24rem;
+  width: 15rem;
 }
 .header-app div a {
   padding: 0px .5rem;

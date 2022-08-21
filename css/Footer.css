@@ -1,10 +1,11 @@
 /* Footer Css */
 footer {
-  height: 16rem;
+  height: 25.6rem;
   background-color: var(--Neutral-VeryDarkBlue);
   display: flex;
   justify-content: space-evenly;
   padding: 4em 0px;
+  font-size: var(--font-weight);
 }
 /* Div Number 1 in Html */
 .logo-social {
@@ -46,8 +47,8 @@ footer {
   justify-content: space-between;
 }
 .input-Button input {
-  width: 13rem;
-  height: 2.6rem;
+  width: 18rem;
+  height: 3.9rem;
   padding: 0px 12px;
   border-radius: 16px;
   border: 1px solid white;
