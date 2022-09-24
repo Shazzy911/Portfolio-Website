@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+  font-family: 'Ubuntu', sans-serif;
   
 }
 :root {
@@ -76,6 +80,9 @@ body {
 .btn2:hover {
   box-shadow: .1rem .1rem 2rem var(--Primary-BrightRed);
   cursor: pointer;
+}
+.btn-border{
+  width: 15.5rem;
 }
 .paragraph {
   font-weight: 500;

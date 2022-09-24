@@ -4,12 +4,12 @@
   justify-content: space-between;
   width: 100%;
   align-items: center;
-  padding: 0px 17rem;
+  padding: 0px 12rem;
 }
 header {
   display: flex;
   height: 10rem;
-  background-color: var(--Neutral-VeryPaleRed);
+  background-color: var(--Primary-DarkBlue);
   position: sticky;
   top: 0;
   z-index: 2;
@@ -24,6 +24,7 @@ header {
 .header-logo img{
   height: 2.4rem;
   width: 14.6rem;
+  
 }
 header nav ul {
   display: flex;
@@ -40,7 +41,7 @@ header nav ul li {
   display: inline;
 }
 header nav ul li a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 1.6rem;
 }
@@ -58,6 +59,9 @@ header nav ul li a:hover {
 }
 .header-app div a {
   padding: 0px .5rem;
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
 }
 .header-app div a img {
   /* border: 1px solid orange; */

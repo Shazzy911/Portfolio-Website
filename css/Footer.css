@@ -14,9 +14,13 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+.logo-social h2{
+  text-align: center;
+}
 .logo-social h2 a{
   color: white;
   text-decoration: none;
+  text-align: center;
 }
 .social-app {
   display: flex;
@@ -24,6 +28,8 @@ footer {
 }
 .social-app a {
   padding: 0px 0.5em;
+  text-decoration: none;
+  color: white;
 }
 
 /* Div Number 2  & 3 in Html */
